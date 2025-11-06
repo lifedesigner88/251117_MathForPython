@@ -19,6 +19,7 @@ dependencies = [
     { name = "pandas" },
     { name = "scipy" },
     { name = "scipy-stubs" },
+    { name = "seaborn" },
     { name = "sympy" },
 ]
 
@@ -32,6 +33,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "scipy", specifier = ">=1.16.2" },
     { name = "scipy-stubs", specifier = "==1.16.2.4" },
+    { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sympy", specifier = ">=1.14.0" },
 ]
 
@@ -1767,6 +1769,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/1f/b1/c806d700fb442f8b04037b1272be303e9b55dea17237002958bd4dd48c47/scipy_stubs-1.16.2.4.tar.gz", hash = "sha256:dc303e0ba2272aa3832660f0e55f7b461ab32e98f452090f3e28a338f3920e67", size = 356403, upload-time = "2025-10-17T03:53:11.714Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f5/d2/596b5f7439c96e6e636db81a2e39a24738ccc6a1363b97e254643070c9c2/scipy_stubs-1.16.2.4-py3-none-any.whl", hash = "sha256:8e47684fe5f8b823e06ec6513e4dbb5ae43a5a064d10d8228b7e3c3d243ec673", size = 557679, upload-time = "2025-10-17T03:53:10.007Z" },
+]
+
+[[package]]
+name = "seaborn"
+version = "0.13.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/86/59/a451d7420a77ab0b98f7affa3a1d78a313d2f7281a57afb1a34bae8ab412/seaborn-0.13.2.tar.gz", hash = "sha256:93e60a40988f4d65e9f4885df477e2fdaff6b73a9ded434c1ab356dd57eefff7", size = 1457696, upload-time = "2024-01-25T13:21:52.551Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl", hash = "sha256:636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987", size = 294914, upload-time = "2024-01-25T13:21:49.598Z" },
 ]
 
 [[package]]

@@ -16,4 +16,5 @@ dependencies = [
     "ipykernel>=7.0.1",
     "jupyter>=1.1.1",
     "pandas>=2.3.3",
+    "seaborn>=0.13.2",
 ]
