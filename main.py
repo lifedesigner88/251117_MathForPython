@@ -1,6 +1,4 @@
-def main():
-    print("Hello from 251017-mathforpython!")
+import sys
+line = sys.stdin.readline()
 
-
-if __name__ == "__main__":
-    main()
+print(line)
